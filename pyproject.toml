@@ -1,0 +1,28 @@
+# Copyright (c) Meta Platforms, Inc. and affiliates.
+# All rights reserved.
+
+# This source code is licensed under the license found in the
+# LICENSE file in the root directory of this source tree.
+
+[tool.poetry]
+name = "lean_universe"
+version = "0.1.0"
+description = "LeanUniverse: A Library for Consistent and Scalable Lean4 Dataset Management."
+authors = ["Aram H. Markosyan <amarkos@meta.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.11"
+pre-commit = "^3.8.0"
+argparse = "^1.4.0"
+typeguard = "^4.3.0"
+psutil = "^6.0.0"
+tqdm = "^4.66.5"
+pygithub = "^2.4.0"
+lean-dojo = {git = "https://github.com/lean-dojo/LeanDojo.git"}
+# lean-dojo = {path = "../LeanDojo", develop = true}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
