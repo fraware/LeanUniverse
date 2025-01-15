@@ -45,7 +45,7 @@ For more information on Poetry and its features, refer to the [official Poetry d
 
 
 ## Development
-We will be using the using `poetry` to manage the project dependencies and the virtual environments. Once you clone the repo, you should run `potery install`. To run the code you need to run `poetry shell` to get the proper shell environment with everything installed. To add a new dependency you can run `poetry add numpy` and the same way you can remove the dependency.
+We will be using the using `poetry` to manage the project dependencies and the virtual environments. Once you clone the repo, you should run `poetry install`. To run the code you need to run `poetry shell` to get the proper shell environment with everything installed. To add a new dependency you can run `poetry add numpy` and the same way you can remove the dependency.
 
 ## License
 The model is licensed under the [CC-BY-NC 4.0](LICENSE). Use of this package for commercial purposes is prohibited.
@@ -56,6 +56,6 @@ __Important__: Users are responsible for ensuring that their usage of third-part
 Please cite as:
 
 ``` bibtex
-@inproceedings{ott2019fairseq,
+@inproceedings{ahm2025leanuniverse,
   title = {LeanUniverse: A Library for Consistent and Scalable Lean4 Dataset Management},
   author = {Aram H. Markosyan, Gabriel Synnaeve, Hugh Leather},
