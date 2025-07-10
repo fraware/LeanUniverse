@@ -1,31 +1,31 @@
-# 🚀 LeanUniverse: Modern Lean4 Dataset Management with AI Integration
+# LeanUniverse 2.0: Modern Lean4 Dataset Management with AI Integration
 
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![License: CC-BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Imports: isort](https://img.shields.io/badge/%20imports-isort-%231674b1?style=flat&labelColor=ef8336)](https://pycqa.github.io/isort/)
 
-> **A revolutionary library for creating comprehensive, AI-ready datasets from Lean4 repositories with cutting-edge features and modern architecture.**
+> **A library for creating comprehensive, AI-ready datasets from Lean4 repositories with cutting-edge features and modern architecture.**
 
-## 🌟 What's New in v0.2.0
+## What's New in v2.0
 
 LeanUniverse has been completely modernized with state-of-the-art features:
 
-### 🏗️ **Modern Architecture**
+### **Modern Architecture**
 
 - **Async-first design** with concurrent processing
 - **Type-safe configuration** using Pydantic
 - **Structured logging** with rich console output
 - **Modular design** with clear separation of concerns
 
-### 🤖 **AI Integration**
+### **AI Integration**
 
 - **Machine learning pipeline** for theorem proving
 - **Transformer model training** capabilities
 - **Dataset quality analysis** and validation
 - **Model serving** via REST API
 
-### 📊 **Advanced Features**
+### **Advanced Features**
 
 - **Real-time monitoring** with Prometheus metrics
 - **OpenTelemetry tracing** for observability
@@ -33,7 +33,7 @@ LeanUniverse has been completely modernized with state-of-the-art features:
 - **Database integration** with SQLAlchemy
 - **Security features** with encryption support
 
-### 🛠️ **Developer Experience**
+### **Developer Experience**
 
 - **Modern CLI** with Typer and Rich
 - **Comprehensive testing** with pytest
@@ -41,7 +41,7 @@ LeanUniverse has been completely modernized with state-of-the-art features:
 - **Documentation** with MkDocs
 - **Docker support** for containerization
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Installation
 
@@ -73,9 +73,9 @@ lean-universe clone https://github.com/leanprover-community/mathlib4
 lean-universe config --show
 ```
 
-## 🎯 Key Features
+## Key Features
 
-### 🔍 **Intelligent Repository Discovery**
+### **Intelligent Repository Discovery**
 
 ```python
 from lean_universe.repository.manager import AsyncRepositoryManager
@@ -89,7 +89,7 @@ async with AsyncRepositoryManager() as manager:
     )
 ```
 
-### ⚙️ **Modern Configuration Management**
+### **Modern Configuration Management**
 
 ```python
 from lean_universe.config import get_config
@@ -100,7 +100,7 @@ config.ml.device = "cuda"
 config.monitoring.enable_prometheus = True
 ```
 
-### 📈 **Dataset Generation Pipeline**
+### **Dataset Generation Pipeline**
 
 ```python
 # Discover repositories
@@ -116,7 +116,7 @@ built_repos = await builder.build_repositories(cloned_repos)
 dataset = await extractor.extract_dataset(built_repos)
 ```
 
-### 🤖 **AI Model Training**
+### **AI Model Training**
 
 ```python
 # Train a theorem proving model
@@ -128,11 +128,11 @@ await trainer.train(
 )
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 LeanUniverse/
-├── 📁 Repository Management
+├── Repository Management
 │   ├── Async discovery and cloning
 │   ├── Rate limiting and caching
 │   └── Validation and filtering
@@ -140,44 +140,44 @@ LeanUniverse/
 │   ├── Type-safe Pydantic models
 │   ├── Environment variable support
 │   └── Validation and defaults
-├── 🤖 AI/ML Pipeline
+├── AI/ML Pipeline
 │   ├── Dataset extraction
 │   ├── Model training
 │   └── Inference serving
-├── 📊 Monitoring & Observability
+├── Monitoring & Observability
 │   ├── Prometheus metrics
 │   ├── OpenTelemetry tracing
 │   └── Structured logging
-└── 🛠️ Developer Tools
+└── 🛠Developer Tools
     ├── Modern CLI
     ├── Testing framework
     └── Documentation
 ```
 
-## 📊 Performance Features
+## Performance Features
 
-### ⚡ **Concurrent Processing**
+### **Concurrent Processing**
 
 - **Async repository cloning** with configurable concurrency
 - **Parallel LeanDojo processing** for faster dataset generation
 - **Rate limiting** to respect API limits
 - **Connection pooling** for database operations
 
-### 🗄️ **Caching & Storage**
+### **Caching & Storage**
 
 - **Redis caching** for frequently accessed data
 - **SQLite/PostgreSQL** for persistent storage
 - **Compressed dataset formats** (JSON, Parquet, HuggingFace)
 - **Incremental updates** to avoid reprocessing
 
-### 📈 **Monitoring & Metrics**
+### **Monitoring & Metrics**
 
 - **Real-time performance metrics** with Prometheus
 - **Distributed tracing** with OpenTelemetry
 - **Structured logging** with correlation IDs
 - **Health checks** and alerting
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 
@@ -225,7 +225,7 @@ monitoring:
   log_level: "INFO"
 ```
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -255,14 +255,7 @@ mkdocs build
 mkdocs serve
 ```
 
-### Examples
-
-- [Basic Usage](docs/examples/basic_usage.md)
-- [Advanced Configuration](docs/examples/advanced_config.md)
-- [AI Model Training](docs/examples/model_training.md)
-- [Custom Pipelines](docs/examples/custom_pipelines.md)
-
-## 🚀 Advanced Usage
+## Advanced Usage
 
 ### Custom Dataset Pipeline
 
@@ -309,7 +302,7 @@ async def custom_training_step(batch, model):
 await trainer.train(dataset)
 ```
 
-## 🔒 Security Features
+## Security Features
 
 - **License filtering** to ensure compliance
 - **Repository validation** to prevent malicious code
@@ -317,7 +310,7 @@ await trainer.train(dataset)
 - **Access control** for API endpoints
 - **Audit logging** for all operations
 
-## 📈 Performance Benchmarks
+## Performance Benchmarks
 
 | Feature              | v0.1.0        | v0.2.0        | Improvement   |
 | -------------------- | ------------- | ------------- | ------------- |
@@ -327,7 +320,7 @@ await trainer.train(dataset)
 | Memory Usage         | 8GB           | 4GB           | 50% reduction |
 | Disk Usage           | 100GB         | 50GB          | 50% reduction |
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -344,27 +337,20 @@ pre-commit install
 pre-commit run --all-files
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the [CC-BY-NC 4.0](LICENSE) license.
 
 **Important**: Users are responsible for ensuring compliance with third-party repository licenses and GitHub's terms of service.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **LeanDojo** for the foundational theorem extraction capabilities
 - **Meta Research** for supporting this open-source project
 - **Lean Community** for the amazing Lean4 ecosystem
 - **Contributors** who help improve this project
 
-## 📞 Support
-
-- **Documentation**: [docs.leanuniverse.dev](https://docs.leanuniverse.dev)
-- **Issues**: [GitHub Issues](https://github.com/your-repo/LeanUniverse/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-repo/LeanUniverse/discussions)
-- **Email**: amarkos@meta.com
-
-## 🎯 Roadmap
+## Roadmap
 
 ### v0.3.0 (Q2 2024)
 
@@ -382,4 +368,4 @@ This project is licensed under the [CC-BY-NC 4.0](LICENSE) license.
 
 ---
 
-**Made with ❤️ by the LeanUniverse Team**
+**Made with ❤️ by the LeanVerifier Team**
