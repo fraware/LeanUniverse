@@ -243,7 +243,7 @@ pytest -m "slow"
 pytest --benchmark-only
 ```
 
-## 📚 Documentation
+## Documentation
 
 ### API Reference
 
