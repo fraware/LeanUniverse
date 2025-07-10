@@ -1,10 +1,10 @@
 ---
-name: ❓ Questions/Help
+name: Questions/Help
 about: If you have questions, please first search existing issues and docs
 labels: 'question, needs triage'
 ---
 
-## ❓ Questions and Help
+## Questions and Help
 
 ### Before asking:
 1. search the issues.
