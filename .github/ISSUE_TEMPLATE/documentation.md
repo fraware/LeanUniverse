@@ -1,10 +1,10 @@
 ---
-name: 📚 Documentation/Typos
+name: Documentation/Typos
 about: Report an issue related to documentation or a typo
 labels: 'documentation, needs triage'
 ---
 
-## 📚 Documentation
+## Documentation
 
 For typos and doc fixes, please go ahead and:
 
