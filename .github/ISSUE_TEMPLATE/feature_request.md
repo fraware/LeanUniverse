@@ -1,10 +1,10 @@
 ---
-name: 🚀 Feature Request
+name: Feature Request
 about: Submit a proposal/request for a new feature
 labels: 'enhancement, help wanted, needs triage'
 ---
 
-## 🚀 Feature Request
+## Feature Request
 <!-- A clear and concise description of the feature proposal -->
 
 ### Motivation
